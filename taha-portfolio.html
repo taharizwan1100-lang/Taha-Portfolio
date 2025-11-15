@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taha Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+
+  <header
+    class="h-72 md:h-96 bg-cover bg-center relative"
+    style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80');"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <h1 class="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
+      Taha Portfolio
+      </h1>
+    </div>
+  </header>
+
+  <nav class="bg-white shadow-md sticky top-0 z-20">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h2 class="text-lg font-semibold">Taha</h2>
+      <ul class="flex space-x-6 font-medium">
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+        <li><a href="#education" class="hover:text-blue-600">Education</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+  <section id="about" class="max-w-5xl mx-auto px-6 py-16" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      Hello! My name is <b>Taha</b>, a passionate student currently enrolled in the
+      <b>Web Development</b> course. My instructor is <b>Sir Umar</b>, and my university ID is
+      <b>660779</b>.  
+      I have a strong interest in designing clean, responsive web interfaces while learning modern
+      technologies to build creative digital experiences.
+    </p>
+  </section>
+
+ 
+  <section id="skills" class="bg-white py-16" data-aos="fade-up">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-gray-200 p-4 rounded-xl text-center font-semibold">HTML</div>
+        <div class="bg-gray-200 p-4 rounded-xl text-center font-semibold">CSS</div>
+        <div class="bg-gray-200 p-4 rounded-xl text-center font-semibold">Tailwind CSS</div>
+        <div class="bg-gray-200 p-4 rounded-xl text-center font-semibold">JavaScript</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="education" class="max-w-5xl mx-auto px-6 py-16" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-4">Education</h2>
+    <p class="text-lg">
+      I am studying <b>Web Development</b> under the supervision of <b>Sir Umar</b>.  
+      I’m continuously learning to improve my technical skills and build a strong foundation for my future career.
+    </p>
+  </section>
+
+  
+  <section id="contact" class="bg-white py-16" data-aos="fade-up">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <p class="text-lg mb-4">Feel free to reach out anytime!</p>
+      <a
+        href="mailto:arham@example.com"
+        class="text-white px-6 py-3 inline-block bg-blue-600 hover:bg-blue-700 rounded-lg"
+      >
+        Send Email
+      </a>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+    <p class="text-sm">© 2025 Taha — Web Development Student</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
