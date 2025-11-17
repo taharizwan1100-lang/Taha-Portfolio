@@ -27,10 +27,14 @@ The header section features a full-width background image:
 - 📌 Fully responsive (mobile/tablet/desktop)
 
 ---
+# documentry file
 
-## 🛠️ Technologies Used
+👉 **https://drive.google.com/file/d/FILE_ID/view?usp=sharing**
 
-- **HTML5**
+# figma design
+
+
+https://www.figma.com/design/QTORTxnj4DOC1gjTfmGchV/Untitled?node-id=0-1&t=meMBuo1NL2lfvL96-1
 - **Tailwind CSS CDN**
 - **AOS Animation Library**
 - **JavaScript (for animation initialization)**
