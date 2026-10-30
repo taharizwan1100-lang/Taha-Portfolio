@@ -1,44 +1,44 @@
-# 🌐 Personal Portfolio – Taha
+# Taha — Personal Portfolio
 
-This repository contains the source code for the personal portfolio website of **Taha**, a Web Development student (ID: 660779) under the supervision of **Sir Umar**.
+A student web development portfolio built with HTML, Tailwind CSS and AOS animations.
 
-The website is fully responsive and built using **Tailwind CSS**, featuring a modern full-header image layout, smooth animations, and clean UI sections such as About, Skills, Education, and Contact.
+## Features
 
----
+- About, skills, education and contact sections
+- Layout styled with responsive Tailwind utility classes
+- Scroll animations using AOS
+- Link to my GitHub profile
 
-## 📸 Preview
+## Run locally
 
-The header section features a full-width background image:
+1. Download or clone this repository.
+2. Open `taha-portfolio.html` in a web browser.
+3. Keep an internet connection for Tailwind, AOS and the Unsplash header image.
 
-![Header Preview](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80)
+No package installation or build command is required for the current HTML page.
 
----
+## Repository structure
 
-## ✨ Features
+| File | Purpose |
+| --- | --- |
+| `taha-portfolio.html` | Main portfolio page |
+| `style.css` | Additional stylesheet retained in the repository |
+| `tailwind.config.js` | Tailwind configuration retained in the repository |
 
-- 📌 Full-screen header background image  
-- 📌 Smooth scroll animations using AOS  
-- 📌 Responsive navbar  
-- 📌 Clean About Me section  
-- 📌 Skills grid (HTML, CSS, Tailwind, JavaScript)  
-- 📌 Education section  
-- 📌 Contact button with mail link  
-- 📌 Modern and professional UI  
-- 📌 Fully responsive (mobile/tablet/desktop)
+The main page loads Tailwind from its CDN. It does not currently link the local stylesheet or load the local Tailwind configuration.
 
----
-# documentry file
+## Technologies
 
-👉 **https://drive.google.com/file/d/FILE_ID/view?usp=sharing**
+HTML5, Tailwind CSS via CDN, JavaScript for AOS initialization, and AOS.
 
-# figma design
+## Design reference
 
+[Original Figma reference](https://www.figma.com/design/QTORTxnj4DOC1gjTfmGchV/Untitled?node-id=0-1&t=meMBuo1NL2lfvL96-1)
 
-https://www.figma.com/design/QTORTxnj4DOC1gjTfmGchV/Untitled?node-id=0-1&t=meMBuo1NL2lfvL96-1
-- **Tailwind CSS CDN**
-- **AOS Animation Library**
-- **JavaScript (for animation initialization)**
+The page uses a stock header photograph from Unsplash. An actual website screenshot and a hosted demo URL have not been added.
 
----
+## Status and next steps
 
-## 📂 Project Structure
+Student learning project. Next steps are to verify the layout on small screens, capture actual screenshots and publish a live demo.
+
+[My GitHub profile](https://github.com/taharizwan1100-lang)
